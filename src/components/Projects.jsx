@@ -1,7 +1,6 @@
 function Projects() {
   return (
     <section id="projects" className="section">
-
       <p className="section-label">
         MY WORK
       </p>
@@ -12,53 +11,57 @@ function Projects() {
 
       <div className="projects-grid">
 
-        {/* PROJECT ONE */}
+        {/* PROJECT 1 */}
         <div className="project-card">
-
           <div className="project-image project-one">
             💻
           </div>
 
           <div className="project-content">
-
             <h3>Personal Portfolio</h3>
 
             <p>
               A responsive personal portfolio website
-              designed to showcase my skills and projects.
+              designed to showcase my skills, education,
+              and projects.
             </p>
 
             <div className="project-tech">
-              <span>HTML</span>
+              <span>React</span>
               <span>CSS</span>
               <span>JavaScript</span>
             </div>
 
             <div className="project-buttons">
-
-              <a href="#contact" className="project-link">
+              {/* Live Demo - ready for deployment */}
+              <a
+                href="#"
+                className="project-link"
+                onClick={(e) => e.preventDefault()}
+              >
                 Live Demo →
               </a>
 
-              <a href="#contact" className="project-github">
+              {/* GitHub Repository */}
+              <a
+                href="https://github.com/Ryanpaul-ai/My-Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-github"
+              >
                 GitHub
               </a>
-
             </div>
-
           </div>
-
         </div>
 
-        {/* PROJECT TWO */}
+        {/* PROJECT 2 */}
         <div className="project-card">
-
           <div className="project-image project-two">
             🚀
           </div>
 
           <div className="project-content">
-
             <h3>React Website</h3>
 
             <p>
@@ -73,30 +76,34 @@ function Projects() {
             </div>
 
             <div className="project-buttons">
-
-              <a href="#contact" className="project-link">
+              {/* Live Demo - add link later */}
+              <a
+                href="#"
+                className="project-link"
+                onClick={(e) => e.preventDefault()}
+              >
                 Live Demo →
               </a>
 
-              <a href="#contact" className="project-github">
+              {/* GitHub - add repository later */}
+              <a
+                href="#"
+                className="project-github"
+                onClick={(e) => e.preventDefault()}
+              >
                 GitHub
               </a>
-
             </div>
-
           </div>
-
         </div>
 
-        {/* PROJECT THREE */}
+        {/* PROJECT 3 */}
         <div className="project-card">
-
           <div className="project-image project-three">
             📱
           </div>
 
           <div className="project-content">
-
             <h3>Responsive Website</h3>
 
             <p>
@@ -111,23 +118,28 @@ function Projects() {
             </div>
 
             <div className="project-buttons">
-
-              <a href="#contact" className="project-link">
+              {/* Live Demo - add link later */}
+              <a
+                href="#"
+                className="project-link"
+                onClick={(e) => e.preventDefault()}
+              >
                 Live Demo →
               </a>
 
-              <a href="#contact" className="project-github">
+              {/* GitHub - add repository later */}
+              <a
+                href="#"
+                className="project-github"
+                onClick={(e) => e.preventDefault()}
+              >
                 GitHub
               </a>
-
             </div>
-
           </div>
-
         </div>
 
       </div>
-
     </section>
   );
 }
