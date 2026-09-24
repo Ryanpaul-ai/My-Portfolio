@@ -11,7 +11,7 @@ function Projects() {
 
       <div className="projects-grid">
 
-        {/* PROJECT 1 */}
+        {/* PROJECT 1 - CURRENT PORTFOLIO */}
         <div className="project-card">
           <div className="project-image project-one">
             💻
@@ -21,8 +21,8 @@ function Projects() {
             <h3>Personal Portfolio</h3>
 
             <p>
-              A responsive personal portfolio website
-              designed to showcase my skills, education,
+              A responsive personal portfolio website built
+              with React to showcase my skills, education,
               and projects.
             </p>
 
@@ -42,7 +42,7 @@ function Projects() {
                 Live Demo →
               </a>
 
-              {/* GitHub Repository */}
+              {/* GitHub */}
               <a
                 href="https://github.com/Ryanpaul-ai/My-Portfolio"
                 target="_blank"
@@ -55,41 +55,44 @@ function Projects() {
           </div>
         </div>
 
-        {/* PROJECT 2 */}
+        {/* PROJECT 2 - OLD PORTFOLIO */}
         <div className="project-card">
           <div className="project-image project-two">
             🚀
           </div>
 
           <div className="project-content">
-            <h3>React Website</h3>
+            <h3>Portfolio Website</h3>
 
             <p>
-              A modern React website built with reusable
-              components and a responsive layout.
+              An earlier personal portfolio website created
+              to showcase my profile, skills, projects,
+              and contact information.
             </p>
 
             <div className="project-tech">
-              <span>React</span>
+              <span>HTML</span>
               <span>CSS</span>
               <span>JavaScript</span>
             </div>
 
             <div className="project-buttons">
-              {/* Live Demo - add link later */}
+              {/* Live Demo */}
               <a
-                href="#"
+                href="https://portfolio-odcm0fypq-magallanesryanpaulc11p-7480s-projects.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="project-link"
-                onClick={(e) => e.preventDefault()}
               >
                 Live Demo →
               </a>
 
-              {/* GitHub - add repository later */}
+              {/* GitHub */}
               <a
-                href="#"
+                href="https://github.com/Ryanpaul-ai/Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="project-github"
-                onClick={(e) => e.preventDefault()}
               >
                 GitHub
               </a>
@@ -118,7 +121,7 @@ function Projects() {
             </div>
 
             <div className="project-buttons">
-              {/* Live Demo - add link later */}
+              {/* Live Demo - add later */}
               <a
                 href="#"
                 className="project-link"
@@ -127,7 +130,7 @@ function Projects() {
                 Live Demo →
               </a>
 
-              {/* GitHub - add repository later */}
+              {/* GitHub - add later */}
               <a
                 href="#"
                 className="project-github"
